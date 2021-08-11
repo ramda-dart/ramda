@@ -1,4 +1,4 @@
-test:
+test-run:
 	flutter test
 
 coverage:
