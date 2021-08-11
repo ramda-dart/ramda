@@ -12,14 +12,14 @@
 /// ```
 /// See also:
 ///   * [Invocation]
-class VarArgsFunction {
-  final Function(List) _onCall;
+class VarArgsFunction<T, R> {
+  final R Function(List<T>) _onCall;
   const VarArgsFunction(this._onCall);
 
   noSuchMethod(Invocation invocation) {
     if (!invocation.isMethod || invocation.namedArguments.isNotEmpty) {
       super.noSuchMethod(invocation);
     }
-    return _onCall(invocation.positionalArguments);
+    return _onCall(invocation.positionalArguments.cast<T>());
   }
 }
