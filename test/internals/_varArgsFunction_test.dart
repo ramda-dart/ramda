@@ -12,5 +12,13 @@ void main() {
 
       expect(varArgsSum(1, 2, 3), sum([1, 2, 3]));
     });
+
+    test('Should throws if a non function var passed.', () {
+      final dynamic foo = (List x) => x;
+      final dynamic bar = _.VarArgsFunction(foo);
+
+      expect(() => bar(x: 'test'), throwsA(isA<NoSuchMethodError>()));
+      expect(bar(), equals([]));
+    });
   });
 }

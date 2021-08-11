@@ -1,7 +1,7 @@
 test-run:
 	flutter test
 
-coverage:
+coverage-run:
 	flutter test --coverage
 
 coverage-html:
