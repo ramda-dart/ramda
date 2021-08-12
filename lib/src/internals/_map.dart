@@ -2,10 +2,10 @@
 ///
 /// Loops through [list] and passes [list[i]] into [fn]
 /// Returns back a [List<R>] with results of fn.
-List<R> map<T, R>(R Function(T) fn, List<T> list) {
+List map(fn, List list) {
   final len = list.length;
 
-  final List<R> res = [];
+  final List res = [];
 
   int i = -1;
   while (++i < len) {

@@ -1,17 +1,15 @@
 import 'package:flutter_test/flutter_test.dart';
 import 'package:ramda/src/internals/internals.dart' as _;
 
-typedef _M = Map<String, int>;
-
 void main() {
   group('_.map', () {
-    const List<_M> list = [
+    const List list = [
       {'v': 1},
       {'v': 2},
       {'v': 3},
     ];
     test('Should double the value of list items.', () {
-      final res = _.map<_M, _M>((e) => {'v': e['v']! * 2}, list);
+      final res = _.map((e) => {'v': e['v']! * 2}, list);
 
       expect(
           res,
@@ -23,7 +21,7 @@ void main() {
     });
 
     test('Should extract v from list.', () {
-      final res = _.map<_M, int>((e) => e['v']!, list);
+      final res = _.map((e) => e['v']!, list);
 
       expect(res, equals([1, 2, 3]));
     });
