@@ -5,15 +5,15 @@ void main() {
   group('_.reduce', () {
     const list = [1, 2, 3, 4];
 
-    test('Should reduce list into int', () {
-      final res = _.reduce<int, int>((t, v) => t + v, 0, list);
+    test('Should reduce list into int.', () {
+      final res = _.reduce((t, v) => t + v, 0, list);
 
       expect(res, 10);
       expect(res is int, true);
     });
 
-    test('Should reduce list into double', () {
-      final res = _.reduce<int, double>((t, v) => t + v, 0, list);
+    test('Should reduce list into double.', () {
+      final res = _.reduce((t, v) => t + v, 0.0, list);
 
       expect(res, 10.0);
       expect(res is double, true);
@@ -21,7 +21,7 @@ void main() {
 
     test('Should reverse string.', () {
       final str = 'cat'.split('');
-      final res = _.reduce<String, String>((x, y) => y + x, '', str);
+      final res = _.reduce((x, y) => y + x, '', str);
 
       expect(res, 'tac');
     });
