@@ -9,12 +9,17 @@ This project is still under active development.
 ## Docs
 
 - internals
-    - [x] _reduce
-    - [x] _map
-    - [x] _filter
+
+  - [x] \_reduce
+  - [x] \_map
+  - [x] \_filter
+  - [x] \_varArgsFunction
 
 - function
-    - [x] P = R.__
+  - [x] P = R.\_\_
+  - [x] curryN
+  - [x] map
+
 ## Credits
 
--   [Mohamed Rabie Elmdary](https://github.com/MohamedElmdary)
+- [Mohamed Rabie Elmdary](https://github.com/MohamedElmdary)
