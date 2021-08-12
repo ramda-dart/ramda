@@ -3,10 +3,10 @@
 /// Loops through [list] and passes [list[i]] into [predicate]
 /// if the [predicate] returns `true` then the [list[i]] included
 /// in the new `list` otherwise [list[i]] removed.
-List<T> filter<T>(bool Function(T) predicate, List<T> list) {
+List filter(predicate, List list) {
   final len = list.length;
 
-  final List<T> res = [];
+  final List res = [];
 
   int i = -1;
   while (++i < len) {
