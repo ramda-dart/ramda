@@ -15,6 +15,8 @@ This project is still under active development.
   - [x] \_filter
   - [x] \_varArgsFunction
   - [x] \_copyList
+  - [x] \_guards
+  - [x] \_assert
 
 - function
 
@@ -33,6 +35,18 @@ This project is still under active development.
 
   - [x] adjust
   - [x] all
+
+- object
+
+  - [x] prop
+
+- relation
+
+  - [x] propEq
+
+- logic
+
+  - [x] allPass
 
 ## Credits
 
