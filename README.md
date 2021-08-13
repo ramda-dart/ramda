@@ -37,6 +37,7 @@ This project is still under active development.
 
   - [x] adjust
   - [x] all
+  - [x] concat
 
 - object
 
@@ -54,6 +55,10 @@ This project is still under active development.
 
   - [x] allPass
   - [x] and
+
+- string
+
+  - [x] toUpper
 
 ## Credits
 
