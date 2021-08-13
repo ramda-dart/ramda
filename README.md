@@ -14,6 +14,7 @@ This project is still under active development.
   - [x] \_map
   - [x] \_filter
   - [x] \_varArgsFunction
+  - [x] \_copyList
 
 - function
 
@@ -31,6 +32,7 @@ This project is still under active development.
 - list
 
   - [x] adjust
+  - [x] all
 
 ## Credits
 
