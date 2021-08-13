@@ -19,3 +19,6 @@ bool isDouble(maybeDouble) => maybeDouble is double && !isNaN(maybeDouble);
 
 /// Returns true if passed value is [num] therwise false.
 bool isNum(maybeNum) => maybeNum is num && !isNaN(maybeNum);
+
+/// Returns true if passed value is [String] therwise false.
+bool isString(maybeStr) => maybeStr is String;

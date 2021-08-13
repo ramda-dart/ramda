@@ -10,6 +10,7 @@ void main() {
   final double nan = double.nan;
   final num ni = 1 ~/ 1;
   final num nd = 1.0;
+  final str = 'hello';
 
   test('isMap', () {
     expect(_.isMap(m), true);
@@ -20,6 +21,7 @@ void main() {
     expect(_.isMap(nan), false);
     expect(_.isMap(ni), false);
     expect(_.isMap(nd), false);
+    expect(_.isMap(str), false);
   });
 
   test('isList', () {
@@ -31,6 +33,7 @@ void main() {
     expect(_.isList(nan), false);
     expect(_.isList(ni), false);
     expect(_.isList(nd), false);
+    expect(_.isList(str), false);
   });
 
   test('isSet', () {
@@ -42,6 +45,7 @@ void main() {
     expect(_.isSet(nan), false);
     expect(_.isSet(ni), false);
     expect(_.isSet(nd), false);
+    expect(_.isSet(str), false);
   });
 
   test('isInt', () {
@@ -53,6 +57,7 @@ void main() {
     expect(_.isInt(nan), false);
     expect(_.isInt(ni), true);
     expect(_.isInt(nd), false);
+    expect(_.isInt(str), false);
   });
 
   test('isNaN', () {
@@ -64,6 +69,7 @@ void main() {
     expect(_.isNaN(nan), true);
     expect(_.isNaN(ni), false);
     expect(_.isNaN(nd), false);
+    expect(_.isNaN(str), false);
   });
 
   test('isDouble', () {
@@ -75,6 +81,7 @@ void main() {
     expect(_.isDouble(nan), false);
     expect(_.isDouble(ni), false);
     expect(_.isDouble(nd), true);
+    expect(_.isDouble(str), false);
   });
 
   test('isNum', () {
@@ -86,5 +93,18 @@ void main() {
     expect(_.isNum(nan), false);
     expect(_.isNum(ni), true);
     expect(_.isNum(nd), true);
+    expect(_.isNum(str), false);
+  });
+
+  test('isString', () {
+    expect(_.isString(m), false);
+    expect(_.isString(s), false);
+    expect(_.isString(l), false);
+    expect(_.isString(i), false);
+    expect(_.isString(d), false);
+    expect(_.isString(nan), false);
+    expect(_.isString(ni), false);
+    expect(_.isString(nd), false);
+    expect(_.isString(str), true);
   });
 }
