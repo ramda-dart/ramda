@@ -116,6 +116,7 @@ void main() {
 
   test('isFunc', () {
     expect(_.isFunc(() {}), true);
+    expect(_.isFunc(_.VarArgsFunction((x) {})), true);
     expect(_.isFunc(false), false);
   });
 }

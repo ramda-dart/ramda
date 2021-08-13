@@ -1,3 +1,5 @@
+import '_varArgsFunction.dart' as _;
+
 /// Returns true if passed value is [Map] otherwise false.
 bool isMap(maybeMap) => maybeMap is Map;
 
@@ -27,4 +29,4 @@ bool isString(maybeStr) => maybeStr is String;
 bool isBool(maybeBool) => maybeBool is bool;
 
 /// Returns true if passed value is [Function] therwise false.
-bool isFunc(maybeFunction) => maybeFunction is Function;
+bool isFunc(maybeFn) => maybeFn is Function || maybeFn is _.VarArgsFunction;
