@@ -9,17 +9,8 @@ void main() {
   final double d = 0.0;
   final str = 'hello';
 
-  bool wrapVoid(fn, obj) {
-    try {
-      fn(obj);
-      return true;
-    } catch (e) {
-      return false;
-    }
-  }
-
   test('assertMap', () {
-    expect(wrapVoid(_.assertMap, m), true);
+    expect(_.assertMap(m), true);
     expect(() => _.assertMap(l), throwsAssertionError);
     expect(() => _.assertMap(s), throwsAssertionError);
     expect(() => _.assertMap(i), throwsAssertionError);
@@ -28,7 +19,7 @@ void main() {
   });
 
   test('assertList', () {
-    expect(wrapVoid(_.assertList, l), true);
+    expect(_.assertList(l), true);
     expect(() => _.assertList(m), throwsAssertionError);
     expect(() => _.assertList(s), throwsAssertionError);
     expect(() => _.assertList(i), throwsAssertionError);
@@ -37,7 +28,7 @@ void main() {
   });
 
   test('assertSet', () {
-    expect(wrapVoid(_.assertSet, s), true);
+    expect(_.assertSet(s), true);
     expect(() => _.assertSet(m), throwsAssertionError);
     expect(() => _.assertSet(l), throwsAssertionError);
     expect(() => _.assertSet(i), throwsAssertionError);
@@ -46,7 +37,7 @@ void main() {
   });
 
   test('assertInt', () {
-    expect(wrapVoid(_.assertInt, i), true);
+    expect(_.assertInt(i), true);
     expect(() => _.assertInt(m), throwsAssertionError);
     expect(() => _.assertInt(l), throwsAssertionError);
     expect(() => _.assertInt(s), throwsAssertionError);
@@ -55,7 +46,7 @@ void main() {
   });
 
   test('assertDouble', () {
-    expect(wrapVoid(_.assertDouble, d), true);
+    expect(_.assertDouble(d), true);
     expect(() => _.assertDouble(m), throwsAssertionError);
     expect(() => _.assertDouble(l), throwsAssertionError);
     expect(() => _.assertDouble(s), throwsAssertionError);
@@ -64,7 +55,7 @@ void main() {
   });
 
   test('assertString', () {
-    expect(wrapVoid(_.assertString, str), true);
+    expect(_.assertString(str), true);
     expect(() => _.assertString(m), throwsAssertionError);
     expect(() => _.assertString(l), throwsAssertionError);
     expect(() => _.assertString(s), throwsAssertionError);
