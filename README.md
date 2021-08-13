@@ -26,6 +26,7 @@ This project is still under active development.
   - [x] reduce
   - [x] filter
   - [x] addIndex
+  - [x] andThen
 
 - math
 
@@ -47,6 +48,7 @@ This project is still under active development.
 - logic
 
   - [x] allPass
+  - [x] and
 
 ## Credits
 
