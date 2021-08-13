@@ -5,3 +5,4 @@ export '_varArgsFunction.dart';
 export '_copyList.dart';
 export '_guards.dart';
 export '_assert.dart';
+export '_swap.dart';
