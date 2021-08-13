@@ -3,6 +3,7 @@ import 'package:ramda/ramda.dart' as R;
 
 void main() {
   test('Should return true.', () {
-    expect(R.lt(1, 2), true);
+    expect(R.lte(1, 2), true);
+    expect(R.lte(2, 2), true);
   });
 }
