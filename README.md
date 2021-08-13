@@ -28,6 +28,10 @@ This project is still under active development.
 
   - [x] add
 
+- list
+
+  - [x] adjust
+
 ## Credits
 
 - [Mohamed Rabie Elmdary](https://github.com/MohamedElmdary)
