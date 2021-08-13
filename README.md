@@ -28,6 +28,7 @@ This project is still under active development.
   - [x] addIndex
   - [x] andThen
   - [x] flip
+  - [x] apply
 
 - math
 

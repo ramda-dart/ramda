@@ -8,3 +8,4 @@ export 'always.dart';
 export 'andThen.dart';
 export 'flip.dart';
 export 'ap.dart';
+export 'apply.dart';
