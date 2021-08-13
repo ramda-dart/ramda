@@ -9,3 +9,4 @@ export 'andThen.dart';
 export 'flip.dart';
 export 'ap.dart';
 export 'apply.dart';
+export 'applySpec.dart';

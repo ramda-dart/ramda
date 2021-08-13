@@ -29,6 +29,7 @@ This project is still under active development.
   - [x] andThen
   - [x] flip
   - [x] apply
+  - [x] applySpec
 
 - math
 
