@@ -10,3 +10,4 @@ export 'flip.dart';
 export 'ap.dart';
 export 'apply.dart';
 export 'applySpec.dart';
+export 'applyTo.dart';
