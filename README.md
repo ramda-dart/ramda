@@ -38,6 +38,8 @@ This project is still under active development.
   - [x] adjust
   - [x] all
   - [x] concat
+  - [x] aperture
+  - [x] append
 
 - object
 
