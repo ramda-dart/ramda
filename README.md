@@ -35,6 +35,7 @@ This project is still under active development.
 
   - [x] add
   - [x] subtract
+  - [x] divide
 
 - list
 
