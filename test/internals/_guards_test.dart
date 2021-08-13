@@ -113,4 +113,9 @@ void main() {
     expect(_.isBool(true), true);
     expect(_.isBool(m), false);
   });
+
+  test('isFunc', () {
+    expect(_.isFunc(() {}), true);
+    expect(_.isFunc(false), false);
+  });
 }

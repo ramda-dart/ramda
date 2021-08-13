@@ -25,3 +25,6 @@ bool isString(maybeStr) => maybeStr is String;
 
 /// Returns true if passed value is [bool] therwise false.
 bool isBool(maybeBool) => maybeBool is bool;
+
+/// Returns true if passed value is [Function] therwise false.
+bool isFunc(maybeFunction) => maybeFunction is Function;

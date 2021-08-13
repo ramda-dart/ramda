@@ -74,4 +74,9 @@ void main() {
     expect(_.assertBool(true), true);
     expect(() => _.assertBool(m), throwsAssertionError);
   });
+
+  test('assertFunc', () {
+    expect(_.assertFunc(() {}), true);
+    expect(() => _.assertFunc(m), throwsAssertionError);
+  });
 }
