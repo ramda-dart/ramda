@@ -22,6 +22,7 @@ This project is still under active development.
   - [x] map
   - [x] reduce
   - [x] filter
+  - [x] addIndex
 
 - math
 
