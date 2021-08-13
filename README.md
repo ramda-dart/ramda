@@ -34,6 +34,7 @@ This project is still under active development.
 - math
 
   - [x] add
+  - [x] subtract
 
 - list
 
