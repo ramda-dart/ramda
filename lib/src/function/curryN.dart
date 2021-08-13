@@ -21,6 +21,8 @@ dynamic curryN(int length, Function fn) {
     dynamic next;
 
     next = _.VarArgsFunction((List arguments) {
+      if (length == 0) return Function.apply(fn, []);
+
       final len = arguments.length;
       if (len == 0) return next;
 

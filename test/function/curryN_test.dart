@@ -12,5 +12,7 @@ void main() {
     final calc = R.curryN(4, foo);
 
     expect(calc()(R.P, 2, 3)(R.P, 2)(1), foo(1, 2, 3, 2));
+
+    expect(R.curryN(0, () => 5)(), 5);
   });
 }
