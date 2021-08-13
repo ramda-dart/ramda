@@ -27,6 +27,7 @@ This project is still under active development.
   - [x] filter
   - [x] addIndex
   - [x] andThen
+  - [x] flip
 
 - math
 
@@ -44,6 +45,7 @@ This project is still under active development.
 - relation
 
   - [x] propEq
+  - [x] lt
 
 - logic
 
