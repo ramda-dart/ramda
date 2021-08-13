@@ -16,9 +16,16 @@ This project is still under active development.
   - [x] \_varArgsFunction
 
 - function
+
   - [x] P = R.\_\_
   - [x] curryN
   - [x] map
+  - [x] reduce
+  - [x] filter
+
+- math
+
+  - [x] add
 
 ## Credits
 
