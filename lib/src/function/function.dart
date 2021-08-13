@@ -6,3 +6,4 @@ export 'filter.dart';
 export 'addIndex.dart';
 export 'always.dart';
 export 'andThen.dart';
+export 'flip.dart';
