@@ -46,6 +46,9 @@ This project is still under active development.
 
   - [x] propEq
   - [x] lt
+  - [x] lte
+  - [x] gt
+  - [x] gte
 
 - logic
 
