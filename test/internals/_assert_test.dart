@@ -62,4 +62,10 @@ void main() {
     expect(() => _.assertString(i), throwsAssertionError);
     expect(() => _.assertString(d), throwsAssertionError);
   });
+
+  test('assertNum', () {
+    expect(_.assertNum(1), true);
+    expect(_.assertNum(1.0), true);
+    expect(() => _.assertNum(m), throwsAssertionError);
+  });
 }

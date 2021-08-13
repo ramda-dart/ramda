@@ -18,3 +18,4 @@ bool assertSet(maybeSet) => _assert('Set', isSet, maybeSet);
 bool assertInt(maybeInt) => _assert('int', isInt, maybeInt);
 bool assertDouble(maybeDouble) => _assert('double', isDouble, maybeDouble);
 bool assertString(maybeString) => _assert('string', isString, maybeString);
+bool assertNum(maybeNum) => _assert('num', isNum, maybeNum);
