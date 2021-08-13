@@ -22,3 +22,6 @@ bool isNum(maybeNum) => maybeNum is num && !isNaN(maybeNum);
 
 /// Returns true if passed value is [String] therwise false.
 bool isString(maybeStr) => maybeStr is String;
+
+/// Returns true if passed value is [bool] therwise false.
+bool isBool(maybeBool) => maybeBool is bool;

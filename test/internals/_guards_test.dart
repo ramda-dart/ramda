@@ -107,4 +107,10 @@ void main() {
     expect(_.isString(nd), false);
     expect(_.isString(str), true);
   });
+
+  test('isBool', () {
+    expect(_.isBool(false), true);
+    expect(_.isBool(true), true);
+    expect(_.isBool(m), false);
+  });
 }

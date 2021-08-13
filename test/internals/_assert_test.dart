@@ -68,4 +68,10 @@ void main() {
     expect(_.assertNum(1.0), true);
     expect(() => _.assertNum(m), throwsAssertionError);
   });
+
+  test('assertBool', () {
+    expect(_.assertBool(false), true);
+    expect(_.assertBool(true), true);
+    expect(() => _.assertBool(m), throwsAssertionError);
+  });
 }
