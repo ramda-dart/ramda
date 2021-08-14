@@ -14,3 +14,5 @@ export 'applyTo.dart';
 export 'ascend.dart';
 export 'identity.dart';
 export 'nAry.dart';
+export 'unary.dart';
+export 'binary.dart';
