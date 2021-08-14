@@ -13,3 +13,4 @@ export 'applySpec.dart';
 export 'applyTo.dart';
 export 'ascend.dart';
 export 'identity.dart';
+export 'nAry.dart';
