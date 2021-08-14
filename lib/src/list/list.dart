@@ -5,3 +5,5 @@ export 'concat.dart';
 export 'aperture.dart';
 export 'append.dart';
 export 'sort.dart';
+export 'head.dart';
+export 'tail.dart';
