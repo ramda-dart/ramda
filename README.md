@@ -54,6 +54,8 @@ This project is still under active development.
   - [x] concat
   - [x] aperture
   - [x] append
+  - [x] head
+  - [x] tail
 
 - object
 
@@ -66,11 +68,14 @@ This project is still under active development.
   - [x] lte
   - [x] gt
   - [x] gte
+  - [x] clamp
 
 - logic
 
   - [x] allPass
   - [x] and
+  - [x] anyPass
+  - [x] both
 
 - string
 
