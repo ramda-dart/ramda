@@ -21,5 +21,13 @@ void main() {
           }
         }),
         true);
+
+    expect(_.equals([1], []), false);
+    expect(_.equals([1], [1]), true);
+    expect(_.equals([1, 2], [1, 1]), false);
+    expect(_.equals({'a': 0}, {}), false);
+    expect(_.equals({'a': 0, 'b': 1}, {'a': 0, 'b': 0}), false);
+    expect(_.equals({1}, {1, 2}), false);
+    expect(_.equals({1, 2}, {1, 3}), false);
   });
 }
