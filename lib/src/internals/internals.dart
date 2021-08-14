@@ -10,3 +10,4 @@ export '_arity.dart';
 export '_comparator.dart';
 export '_copyMap.dart';
 export '_copySet.dart';
+export '_toBool.dart';

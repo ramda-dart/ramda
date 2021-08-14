@@ -119,4 +119,9 @@ void main() {
     expect(_.isFunc(_.VarArgsFunction((x) {})), true);
     expect(_.isFunc(false), false);
   });
+
+  test('isNil', () {
+    expect(_.isNil(null), true);
+    expect(_.isNil(_.VarArgsFunction((x) {})), false);
+  });
 }

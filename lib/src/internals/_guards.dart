@@ -30,3 +30,6 @@ bool isBool(maybeBool) => maybeBool is bool;
 
 /// Returns true if passed value is [Function] therwise false.
 bool isFunc(maybeFn) => maybeFn is Function || maybeFn is _.VarArgsFunction;
+
+/// Returns true if passed value is [Function] therwise false.
+bool isNil(maybeNil) => maybeNil == null;
