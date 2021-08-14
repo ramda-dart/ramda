@@ -4,7 +4,7 @@ import 'package:ramda/ramda.dart' as R;
 void main() {
   test('Should return a deep copy.', () {
     final l = [];
-    final Set s = {};
+    final Set s = {l};
     final m = {};
 
     final Map src = {
@@ -20,5 +20,6 @@ void main() {
     expect(res['b'] != l, true);
     expect(res['d'] != m, true);
     expect(res['c']['a'] != s, true);
+    expect(res['c']['a'].first != l, true);
   });
 }

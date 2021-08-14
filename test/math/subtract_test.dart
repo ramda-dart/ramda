@@ -6,5 +6,6 @@ void main() {
     expect(R.subtract(1, 2), -1);
     expect(R.subtract(2, 1), 1);
     expect(R.subtract(1, 1), 0);
+    expect(R.dec(1), 0);
   });
 }
