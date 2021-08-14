@@ -4,14 +4,5 @@ import '../internals/internals.dart' as _;
 final dynamic pipe = _.VarArgsFunction((List fns) {
   if (fns.isEmpty) return pipe;
 
-  return _.VarArgsFunction((List args) {
-    dynamic res = _.VarArgsFunction.apply(fns[0], args);
-
-    int i = 0;
-    while (++i < fns.length) {
-      res = fns[i](res);
-    }
-
-    return res;
-  });
+  return _.VarArgsFunction(_.pipe(fns));
 });
