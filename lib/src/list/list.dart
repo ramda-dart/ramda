@@ -8,3 +8,4 @@ export 'sort.dart';
 export 'head.dart';
 export 'tail.dart';
 export 'reverse.dart';
+export 'contains.dart';
