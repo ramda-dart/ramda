@@ -9,3 +9,4 @@ export '_swap.dart';
 export '_arity.dart';
 export '_comparator.dart';
 export '_copyMap.dart';
+export '_copySet.dart';
