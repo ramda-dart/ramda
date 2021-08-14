@@ -12,3 +12,4 @@ export '_copyMap.dart';
 export '_copySet.dart';
 export '_toBool.dart';
 export '_pipeWith.dart';
+export '_equals.dart';
