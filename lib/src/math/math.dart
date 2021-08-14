@@ -8,3 +8,4 @@ export 'modulo.dart';
 export 'negate.dart';
 export 'mathMod.dart';
 export 'product.dart';
+export 'sum.dart';

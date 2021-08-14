@@ -43,6 +43,7 @@ This project is still under active development.
   - [x] negate
   - [x] mathMod
   - [x] product
+  - [x] sum
 
 - list
 
