@@ -41,6 +41,8 @@ This project is still under active development.
   - [x] multiply
   - [x] modulo
   - [x] negate
+  - [x] mathMod
+  - [x] product
 
 - list
 

@@ -7,3 +7,4 @@ export 'dec.dart';
 export 'modulo.dart';
 export 'negate.dart';
 export 'mathMod.dart';
+export 'product.dart';
