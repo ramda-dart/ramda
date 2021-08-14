@@ -22,3 +22,5 @@ export 'pipe.dart';
 export 'pipeWith.dart';
 export 'compose.dart';
 export 'composeWith.dart';
+export 't.dart';
+export 'f.dart';
