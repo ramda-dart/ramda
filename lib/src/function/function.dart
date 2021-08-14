@@ -19,5 +19,6 @@ export 'binary.dart';
 export 'call.dart';
 export 'comparator.dart';
 export 'pipe.dart';
+export 'pipeWith.dart';
 export 'compose.dart';
 export 'composeWith.dart';
