@@ -44,6 +44,7 @@ This project is still under active development.
   - [x] mathMod
   - [x] product
   - [x] sum
+  - [x] mean
 
 - list
 
