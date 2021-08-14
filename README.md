@@ -36,6 +36,10 @@ This project is still under active development.
   - [x] add
   - [x] subtract
   - [x] divide
+  - [x] inc
+  - [x] dec
+  - [x] multiply
+  - [x] mathMod
 
 - list
 
