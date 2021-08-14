@@ -45,6 +45,7 @@ This project is still under active development.
   - [x] product
   - [x] sum
   - [x] mean
+  - [x] median
 
 - list
 

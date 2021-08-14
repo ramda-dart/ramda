@@ -12,3 +12,4 @@ export 'apply.dart';
 export 'applySpec.dart';
 export 'applyTo.dart';
 export 'ascend.dart';
+export 'identity.dart';

@@ -10,3 +10,4 @@ export 'mathMod.dart';
 export 'product.dart';
 export 'sum.dart';
 export 'mean.dart';
+export 'median.dart';
