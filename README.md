@@ -39,7 +39,8 @@ This project is still under active development.
   - [x] inc
   - [x] dec
   - [x] multiply
-  - [x] mathMod
+  - [x] modulo
+  - [x] negate
 
 - list
 
