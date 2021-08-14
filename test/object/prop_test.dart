@@ -14,6 +14,7 @@ void main() {
     expect(string(1), 't');
     expect(string(-1), 'r');
     expect(list(1), 2);
+    expect(list(0), 1);
     expect(list(-1), 3);
     expect(map('a'), 1);
     expect(map(2), 0);
@@ -31,5 +32,10 @@ void main() {
     expect(() => string('a'), throwsAssertionError);
     expect(() => list('a'), throwsAssertionError);
     expect(() => R.prop(<dynamic>{}, 'a'), throwsAssertionError);
+  });
+
+  test('head & tail', () {
+    expect(R.head([0, 1, 2]), 0);
+    expect(R.tail([0, 1, 2]), 2);
   });
 }

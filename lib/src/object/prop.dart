@@ -6,7 +6,7 @@ final prop = curryN(2, (key, obj) {
     _.assertInt(key);
 
     final k = key >= 0 ? key : obj.length + key;
-    return obj.length > k && k > 0 ? obj[k] : null;
+    return obj.length > k && k >= 0 ? obj[k] : null;
   }
 
   _.assertMap(obj);
