@@ -18,3 +18,4 @@ export 'unary.dart';
 export 'binary.dart';
 export 'call.dart';
 export 'comparator.dart';
+export 'pipe.dart';
