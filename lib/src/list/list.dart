@@ -10,3 +10,7 @@ export 'tail.dart';
 export 'reverse.dart';
 export 'contains.dart';
 export 'length.dart';
+export 'drop.dart';
+export 'dropWhile.dart';
+export 'dropLast.dart';
+export 'dropLastWhile.dart';
