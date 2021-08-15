@@ -5,3 +5,4 @@ export 'gt.dart';
 export 'gte.dart';
 export 'clamp.dart';
 export 'equals.dart';
+export 'countBy.dart';
