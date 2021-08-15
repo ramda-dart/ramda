@@ -14,3 +14,5 @@ export 'drop.dart';
 export 'dropWhile.dart';
 export 'dropLast.dart';
 export 'dropLastWhile.dart';
+export 'dropRepeatsWith.dart';
+export 'dropRepeats.dart';

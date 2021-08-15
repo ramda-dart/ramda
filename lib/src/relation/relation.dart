@@ -8,3 +8,4 @@ export 'equals.dart';
 export 'countBy.dart';
 export 'differenceWith.dart';
 export 'difference.dart';
+export 'eqBy.dart';
