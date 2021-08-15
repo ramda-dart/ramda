@@ -9,3 +9,4 @@ export 'head.dart';
 export 'tail.dart';
 export 'reverse.dart';
 export 'contains.dart';
+export 'length.dart';

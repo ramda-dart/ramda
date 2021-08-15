@@ -24,3 +24,4 @@ export 'compose.dart';
 export 'composeWith.dart';
 export 't.dart';
 export 'f.dart';
+export 'converge.dart';
