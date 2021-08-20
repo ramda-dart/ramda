@@ -5,3 +5,4 @@ export 'both.dart';
 export 'complement.dart';
 export 'cond.dart';
 export 'defaultTo.dart';
+export 'either.dart';
